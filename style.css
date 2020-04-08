@@ -1,0 +1,156 @@
+
+body{
+  overflow-x: hidden;
+  background-image: url("images/rapunzel1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar
+{
+  padding-left:50px !important;
+}
+.navbar-brand
+{
+  transition: all .75s !important;
+}
+.header{
+    background: rgba(13, 6, 37, .7);
+    border-top: 2px solid #f5c322;
+    z-index: 10;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#rd :hover
+{
+  color:#f5c322;
+  text-decoration: none;
+  transform: scale(1.1) !important;
+  transition: all ease 700ms !important;
+  transition: all .75s !important;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    color:#e1e0d5 !important;
+    transition: all .75s !important;
+    line-height: 76px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.nav-link:hover{
+    color: #f5c322 !important;
+}
+
+.navbar-item{
+  padding-right:40px;
+}
+.hom1 img{
+
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.hom2{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 50%;
+        text-align: center;
+        top: 58%;
+        width: 70%;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: .3125rem;
+    color: #f5c322;
+    max-width: 1100px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.read
+{
+    font-size: 20px;
+    letter-spacing: .0875rem;
+    color: #e1e0d5;
+    font-family: 'Goudy Bookletter 1911', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all .75s;
+}
+
+a:hover
+{
+  color:#f5c322;
+  text-decoration: none;
+  transform: scale(1.1) !important;
+  transition: all ease 700ms !important;
+  transition: all .75s !important;
+}
+
+.hom1 hr
+{
+    background-image: url("images/line-accent.png");
+    height: 8px;
+    width:175px;
+    margin-top: 1px;
+}
+
+@media only screen and (max-width: 602px) {
+
+  .navlink
+  {
+    font-size: 30px;
+  }
+
+  h1
+  {
+    font-size:2rem;
+  }
+  .read
+  {
+    font-size:30px;
+  }
+  nav
+  {
+    padding-right:50px !important;
+  }
+  button {
+  float: none !important;
+  display: table !important;
+  margin: auto !important;
+  width: 100% !important;
+  }
+  img {
+  float: none !important;
+  display: table !important;
+  margin: auto !important;
+  }
+
+  .header{
+      border-top: 5px solid #f5c322;
+  }
+
+}
+
+@keyframes header-shine {
+    0% {
+        color: #e1e0d5;
+        text-shadow: 0 0 10px transparent
+    }
+    10% {
+        color: #f6f6f3;
+        opacity: 1;
+        text-shadow: 0 0 10px #FFF
+    }
+    100% {
+        color: #f5c322;
+        text-shadow: 0 0 10px transparent
+    }
+}

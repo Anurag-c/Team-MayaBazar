@@ -1,0 +1,144 @@
+body
+{
+  overflow-x: hidden;
+  background-image: url("images/bio.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+body::after {
+  content: "";
+  background: #0d0625;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: -100px;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.navbar
+{
+  padding-left:50px !important;
+}
+.header{
+    background: rgba(13, 6, 37, .7);
+    border-top: 2px solid #f5c322;
+    z-index: 10;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    color:#e1e0d5 !important;
+    transition: all .75s !important;
+    line-height: 76px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.nav-link:hover{
+    color: #f5c322 !important;
+}
+
+.navbar-item{
+  padding-right:40px;
+}
+.act
+{
+  color: #f5c322 !important;
+}
+@media only screen and (max-width: 602px) {
+
+  body::after {
+    bottom:-650px !important;
+  }
+
+  .navlink
+  {
+    font-size: 30px;
+  }
+
+  nav
+  {
+    padding-right:50px !important;
+  }
+  button {
+  float: none !important;
+  display: table !important;
+  margin: auto !important;
+  width: 100% !important;
+  }
+  img {
+  float: none !important;
+  display: table !important;
+  margin: auto !important;
+  }
+
+  .header{
+      border-top: 5px solid #f5c322;
+  }
+
+}
+.navbar-brand
+{
+  transition: all .75s !important;
+}
+a:hover
+{
+  color:#f5c322;
+  text-decoration: none;
+  transform: scale(1.1) !important;
+  transition: all ease 700ms !important;
+  transition: all .75s !important;
+}
+
+.head
+{
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #f5c322;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+.head h1
+{
+    font-size: 3.5rem;
+}
+hr
+{
+  background-image: url("images/line-accent.png");
+  height: 8px;
+  width: 240px;
+  margin-top: 2px;
+}
+@font-face
+{
+  font-family:frozen;
+  src:url(font/frozen.ttf);
+}
+
+p
+{
+    font-family: frozen;
+    font-weight: normal;
+    font-style: normal;
+    color:#e1e0d5;
+    font-size: 17px;
+}
+
+.gross
+{
+    margin-top: 16px;
+    font-size: 25px;
+}
+.learn
+{
+  font-family: frozen;
+  font-size: 17px;
+}
